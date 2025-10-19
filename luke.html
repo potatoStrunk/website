@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Luke's website — a simple starter page" />
+    <title>Luke's Website</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>    
+<body>
+    <header>
+        <nav>
+            <a href="#home">potato</a> |
+            <a href="#about">potato</a> |
+            <a href="#contact">potato</a>
+        </nav>
+        <h1>I know what you did, Xander</h1>
+    </header>
+
+    <main id="home">
+        <section id="about">
+            <h2>About</h2>
+            <p>here are all the leaks from pokemon legends ZA.</p>
+            <img src="mega starmie.jpg" width="500" height="100">
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Lucas. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Simple script to set current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
